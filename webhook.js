@@ -7,7 +7,7 @@ const app = express();
 app.use(bodyParser.json());
 
 // Defina seu token secreto aqui
-const SECRET_TOKEN = "seu-token-super-seguro-aqui";
+const SECRET_TOKEN = "4e3b5e5a9c7d3f5f6a9c8a1b8d9e7f4a6b1d2e3c9f7a8b0d6a5c7f8e9b2d1c3f";
 
 app.post('/webhook', (req, res) => {
   const signature = req.headers['x-hub-signature-256'];
